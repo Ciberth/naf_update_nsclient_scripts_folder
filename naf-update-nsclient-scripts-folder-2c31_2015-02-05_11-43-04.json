@@ -1,0 +1,64 @@
+{
+    "id": "57",
+    "parent_id": null,
+    "created": "2015-01-29 15: 51: 09",
+    "created_by": "1",
+    "modified": "2015-02-05 11: 43: 00",
+    "modified_by": "1",
+    "active": "1",
+    "name": "NAF - Update NSClient Scripts Folder",
+    "slug": "naf-update-nsclient-scripts-folder-2c31",
+    "description": "Updates NSClient Scripts Folder",
+    "required_context": "gateway: \nhostname: ",
+    "status": "IDLE",
+    "last_run": null,
+    "last_result": null,
+    "last_result_text": null,
+    "locked": null,
+    "locked_by": null,
+    "nodes": [
+        {
+            "node": {
+                "id": "185",
+                "created": "2015-02-04 14: 40: 05",
+                "modified": null,
+                "created_by": "1",
+                "event_chain_id": "57",
+                "seq": "1",
+                "bool_op": "all",
+                "nick": "NAF - Update NSClient Scripts Folder",
+                "enabled": "1",
+                "collapsed": null,
+                "tpl_status": null,
+                "stashed": null,
+                "comment": null,
+                "basic": "1"
+            },
+            "conditions": [
+                
+            ],
+            "actions": [
+                {
+                    "id": "208",
+                    "created": "2015-02-04 14: 40: 05",
+                    "modified": null,
+                    "created_by": "1",
+                    "action_class": "shell_script_evaluation_action",
+                    "event_node_id": "185",
+                    "seq": "1",
+                    "consequence": "1",
+                    "param_values_json": "{
+                        \"script\": \"\\\/var\\\/www\\\/html\\\/nagiosreactor\\\/application\\\/libraries\\\/scripts\\\/naf_update_nsclient_scripts_folder.sh %gateway% %hostname%\"
+                    }",
+                    "mode": null,
+                    "disabled": "0"
+                }
+            ]
+        }
+    ],
+    "tags": [
+        {
+            "name": "SB-Servers"
+        }
+    ]
+}
