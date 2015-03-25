@@ -1,18 +1,30 @@
-# NAF - Update NSClient++ Scripts Folder
+# NAF - Update NSClient Scripts Folder with a Quick Action or Nagios Reactor Event Handler
 
 ### Idea
 
-Update the NSClient++ scripts folder on your Windows servers with a Nagios XI quick action with the help of a Windows Gateway server.
+Update the NSClient++ scripts folder on your Windows servers with a Quick Action or Nagios Reactor Event Handler and the help of a Windows 
+Gateway server.
 
 ### Status
 
-Under development. Confirmed to work on Windows 2003, 2003 R2, 2008 and 2008 R2. 
+Poduction ready. Please visit http://outsideit.net/naf_update_nsclient_scripts_folder for more information.
 
 ### How to?
 
-Check http://outsideit.net/naf_update_nscp_scripts_folder for more information. Building, testing and reporting bugs are highly appreciated.
-Please include console's output and reproduction step in your bug report. 
+Please visit http://outsideit.net/naf-update-nsclient-scripts-folder for more information on how to use this plugin.
+
+### Help
+
+In case you find a bug or have a feature request, please make an issue on GitHub.
 
 ### On Nagios Exchange
 
-Not yet
+http://exchange.nagios.org/directory/Utilities/Update-NSClient-Scripts-Folder-with-a-Quick-Action-or-Nagios-Reactor-Event-Handler/details
+
+### Copyright
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public 
+License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later 
+version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
+implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more 
+details at <http://www.gnu.org/licenses/>.
