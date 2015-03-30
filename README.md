@@ -7,7 +7,7 @@ Gateway server.
 
 ### Status
 
-Poduction ready. Please visit http://outsideit.net/naf_update_nsclient_scripts_folder for more information.
+Production ready. Please visit http://outsideit.net/naf-update-nsclient-scripts-folder for more information.
 
 ### How to?
 
