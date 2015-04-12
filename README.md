@@ -19,7 +19,7 @@ In case you find a bug or have a feature request, please make an issue on GitHub
 
 ### On Nagios Exchange
 
-http://exchange.nagios.org/directory/Utilities/Update-NSClient-Scripts-Folder-with-a-Quick-Action-or-Nagios-Reactor-Event-Handler/details
+http://exchange.nagios.org/directory/Utilities/NAF--2D-Update-NSClient-Scripts-Folder/details
 
 ### Copyright
 
